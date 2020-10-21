@@ -18,7 +18,7 @@ def preprocess(path,out_file_a):
                     elif(flag):
                         flag=False
                     else:
-                        temp_str+=line.strip()
+                        temp_str+=" "+line.strip()
             print("done one")
 
 if __name__ == "__main__":

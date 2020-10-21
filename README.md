@@ -18,7 +18,7 @@ python WikiExtractor.py -b 1024M -o output enwiki-latest-pages-articles.xml.bz2
 ```
 python extra.py -p output/AA/ -o wikipedia.txt
 ```
-+ -p 是上一步WikiExtractor处理后获得的数据，-o是最后的输出数据
++ -p 是上一步WikiExtractor处理后获得的文件夹路径，-o是最后的输出数据文件
 
 ## demo
 
